@@ -1,0 +1,78 @@
+@import url('./bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Lora&family=Passion+One&family=Playfair+Display&family=Roboto&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Passion One', cursive;
+    font-family: 'Playfair Display', serif;
+}
+
+.resume {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    margin: 0;
+}
+
+.side-bar {
+    padding: 10px;
+    background-color: #10657e;
+    color: white;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
+}
+
+.side-bar div {
+    border-bottom: 3px rgba(0, 0, 0, 0.8) solid;
+    padding-top: 8px;
+}
+
+.side-bar .other-skills{
+    border-bottom: none;
+}
+
+.side-bar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto;
+}
+
+.side-bar ul li {
+    position: relative;
+    left: -10%;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content > .header img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+.grey {
+    color: gray;
+}
+
+.experience {
+    width: 80%;
+    border-top: 1px rgba(0, 0, 0, 0.8) solid;
+}
+
+
+.eductation {
+    border-top: 1px rgba(0, 0, 0, 0.8) solid;
+    width: 80%;
+}

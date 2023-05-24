@@ -1,7 +1,6 @@
 <template>
   <div class="resume">
         <div class="side-bar">
-            <div class="profile"><img src="../assets/images/profile.jpeg" alt="profile"></div>
             <div class="summary">
                 <h3>Summary</h3>
                 <p>Experienced administrative assistant and customer service representative with strong organizational, communication, and problem-solving skills. Skilled in managing calendars, maintaining databases, handling customer inquiries, resolving complaints, and processing orders. Adept at multitasking, working independently or as part of a team, and adapting to new situations with ease. Committed to delivering top-notch results and exceeding expectations.</p>

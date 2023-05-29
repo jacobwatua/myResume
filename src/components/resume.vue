@@ -60,7 +60,7 @@
                 <div class="experienceHead">
                     <p class="grey">06/2020-05/2021</p>
                     <p class="role"><b>Customer Service Representative</b></p>
-                    <p class="company"><b>Simply Interpreting | Bloomberg, USA</b></p>
+                    <p class="company"><b>Simply Interpreting | Bloomfield, USA</b></p>
                 </div>
                 <div class="experience-roles">
                     <ul>

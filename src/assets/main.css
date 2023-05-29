@@ -70,6 +70,8 @@ body {
 
     .experiences ul li {
         width: 95%;
+        position: relative;
+        left: -15px;
     }
 }
 

@@ -1,13 +1,27 @@
 <template>
-  <Resume />
+  <div class="app">
+    <CvHeader />
+    <CvSummary />
+    <Skills />
+    <Experience />
+    <Education />
+  </div>
 </template>
 
 <script>
-import Resume from "./components/resume.vue"
+import Education from "./components/education.vue";
+import Experience from "./components/experience.vue";
+import CvHeader from "./components/header.vue";
+import Skills from "./components/skills.vue";
+import CvSummary from "./components/summary.vue";
 export default {
   components : {
-    Resume
-  }
+    CvHeader,
+    CvSummary,
+    Skills,
+    Experience,
+    Education
+}
 }
 </script>
 

@@ -7,68 +7,88 @@ body {
     font-size: 14px;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
+    background-color: rgba(211, 211, 211,0.6);
+    text-align: justify;
 }
 
-.resume {
-    display: grid;
-    grid-template-columns: 250px 1fr;
-    margin: 0;
-}
-
-.side-bar {
-    padding: 10px;
-    background-color: #10657e;
-    color: white;
-    text-align: left;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Lora', serif;
-}
-
-.side-bar div {
-    border-bottom: 3px rgba(0, 0, 0, 0.8) solid;
-    padding-top: 8px;
-}
-
-.side-bar .other-skills{
-    border-bottom: none;
-}
-
-.side-bar img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    display: block;
-    margin: 15px auto;
-}
-
-.side-bar ul li {
-    position: relative;
-    left: -10%;
-}
-
-.content {
-    padding: 20px;
-}
-
-.content > .header img{
+.header img{
     width: 20px;
     margin-right: 10px;
 }
 
 
-
-
-.grey {
-    color: gray;
+.experiences,
+.eductation,
+.header,
+.skills,
+.summary{
+    padding-left: 20px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0,0.6);
+    width: 90%;
+    margin: 0px auto;
 }
 
-.experience {
+
+.summary p {
     width: 80%;
-    border-top: 1px rgba(0, 0, 0, 0.8) solid;
 }
 
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skills div:last-child {
+    margin-left: 60px;
+    margin-top: -25px;
+}
+
+.skills div ul {
+    padding: 10px;
+    position: relative;
+    left: 10px;
+}
 
 .eductation {
-    border-top: 1px rgba(0, 0, 0, 0.8) solid;
-    width: 80%;
+    border-bottom : none;
 }
+
+@media(max-width:900px) {
+    .experiences,
+    .eductation,
+    .header,
+    .skills,
+    .summary{
+        width: 100%;
+    }
+
+    .summary p {
+        width: 95%;
+    }
+
+    .experiences ul li {
+        width: 95%;
+    }
+}
+
+
+@media(max-width:650px) {
+    .skills {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .skills div:last-child {
+        margin-left: 0;
+        margin-top: -35px;
+    }
+}
+
+.text-info {
+    color: #007bff;
+    font-family: 'Montserrat', sans-serif;
+}
+
